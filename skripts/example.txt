@@ -1,0 +1,27 @@
+Most Popular Skript Addons:
+SkQuery: http://dev.bukkit.org/bukkit-plugins/skquery/
+
+Umbaska: https://dev.bukkit.org/bukkit-plugins/umbaska/
+
+skRayFall: https://dev.bukkit.org/bukkit-plugins/skrayfall/
+
+WildSkript: https://dev.bukkit.org/bukkit-plugins/wildskript/
+
+Skript+ (SkQuery addon): https://dev.bukkit.org/bukkit-plugins/skript/forum/misc/72444-skquery-addon-skript-plus-v1-4/
+Most Popular Skript Addons:
+
+Chat Clear:
+command /cc:
+    description: Clears chat for all players.
+    permission: hubcore.staff
+    permission message: &cNo Permission!
+    trigger:
+        loop 175 times:
+            broadcast " "
+        broadcast "{@Prefix} Chat was cleared by %player%.}"
+        
+Hello!:
+command /hello!:
+        trigger:
+            broadcast "&dHello!"
+           
